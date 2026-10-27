@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10251d">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Volver al inicio">
+        <span class="brand-mark">+</span>
+        <span>{{ site.title }}</span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a class="nav-cta" href="mailto:hola@ejemplo.com">Hablemos <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>{{ content }}</main>
+
+    <footer class="site-footer">
+      <span>© {{ 'now' | date: '%Y' }} {{ site.title }}</span>
+      <a href="mailto:hola@ejemplo.com">hola@ejemplo.com</a>
+    </footer>
+  </body>
+</html>

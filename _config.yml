@@ -1,0 +1,16 @@
+title: "Tu nombre"
+description: "Una descripción breve de tu sitio"
+url: "https://rokko3.github.io"
+baseurl: ""
+lang: "es"
+timezone: "Europe/Madrid"
+
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
