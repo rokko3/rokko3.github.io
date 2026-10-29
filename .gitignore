@@ -3,7 +3,7 @@ _site/
 .jekyll-cache/
 .sass-cache/
 .jekyll-metadata
-
+.lock
 # Ruby dependencies and local tooling
 .bundle/
 vendor/bundle/
