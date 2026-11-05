@@ -101,12 +101,10 @@ h1 em { color: #b24930; font-style: italic; }
 .hero-intro { max-width: 420px; margin: 38px 0 34px 14%; color: var(--muted); font-size: 20px; }
 .button { display: inline-flex; gap: 26px; align-items: center; padding: 14px 18px; color: var(--paper); background: var(--ink); border-radius: 999px; font: 700 13px/1 Arial, sans-serif; }
 
-.pro-tip-section { padding: 100px 0 150px; }
-.section-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 48px; }
+.pro-tip-section { padding: 58px 0 110px; }
 h2 { font-size: clamp(42px, 6vw, 78px); }
-.section-heading h2 { width: 70%; }
-.pro-tip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.pro-tip-card { display: grid; min-height: 540px; grid-template-rows: 1fr auto; gap: 32px; padding: 24px; transition: transform .25s ease; }
+.pro-tip-grid { display: grid; gap: 14px; }
+.pro-tip-card { display: grid; min-height: 320px; grid-template-columns: 1fr 1fr; gap: 40px; padding: 28px; transition: transform .25s ease; }
 .pro-tip-card:hover { transform: translateY(-8px); }
 .pro-tip-green { background: var(--lime); }
 .pro-tip-coral { background: var(--coral); }
@@ -128,11 +126,7 @@ h2 { font-size: clamp(42px, 6vw, 78px); }
   .site-header nav a:not(.nav-cta) { display: none; }
     .hero { min-height: 560px; padding-top: 90px; }
   .hero-intro { margin-left: 0; font-size: 18px; }
-  .section-heading, .about { display: block; }
-  .section-heading h2 { width: 100%; }
-  .section-heading .eyebrow { margin-bottom: 28px; }
-    .pro-tip-grid { grid-template-columns: 1fr; }
-    .pro-tip-card { min-height: 470px; }
+    .pro-tip-card { grid-template-columns: 1fr; min-height: 470px; gap: 28px; }
   .about h2 { margin-bottom: 28px; }
   .about { padding: 70px 0 100px; }
 }

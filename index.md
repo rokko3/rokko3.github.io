@@ -4,18 +4,7 @@ title: "Pro tips"
 description: "Consejos breves para entrenar mejor."
 ---
 
-<section class="hero" aria-labelledby="hero-title">
-  <p class="eyebrow">Pro tips · Entrenamiento</p>
-  <h1 id="hero-title">Entrena con más <em>intención</em>.</h1>
-  <p class="hero-intro">Ideas sencillas para entender mejor tu entrenamiento, cuidar la técnica y aprovechar cada sesión.</p>
-  <a class="button" href="#pro-tips">Ver pro tips <span aria-hidden="true">↓</span></a>
-</section>
-
-<section class="pro-tip-section" id="pro-tips" aria-labelledby="tips-title">
-  <div class="section-heading">
-    <p class="eyebrow">Una idea cada vez</p>
-    <h2 id="tips-title">Pequeños ajustes.<br>Grandes diferencias.</h2>
-  </div>
+<section class="pro-tip-section" id="pro-tips" aria-label="Pro tips de entrenamiento">
   <div class="pro-tip-grid">
     <article class="pro-tip-card pro-tip-green">
       <div class="pro-tip-content">
@@ -50,13 +39,5 @@ description: "Consejos breves para entrenar mejor."
         <strong>Próximamente</strong>
       </div>
     </article>
-  </div>
-</section>
-
-<section class="about" id="sobre-los-tips" aria-labelledby="about-title">
-  <p class="eyebrow">La idea general</p>
-  <div>
-    <h2 id="about-title">Hazlo simple.<br>Hazlo constante.</h2>
-    <p>El mejor entrenamiento es el que puedes repetir con buena técnica y atención. Aquí iremos reuniendo ideas prácticas para que cada sesión tenga un propósito.</p>
   </div>
 </section>
