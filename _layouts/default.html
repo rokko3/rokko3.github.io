@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script src="{{ '/src/toggle.js' | relative_url }}" defer></script>
   </head>
-  <body>
+  <body class="{{ page.page_class | default: 'site-page' }}">
     <header class="site-header">
       <nav class="site-nav" aria-label="Navegación principal">
         <details class="dropdown">
             <summary> Pro tips</summary>
             <div class="dropdown-menu">
-            <a href="#pro-tips">Ver todos los tips</a>
+            <a href="{{ '/pro-tips/' | relative_url }}">Ver todos los tips</a>
             </div>
         </details>
         <details class="dropdown">
             <summary> Rutina Empuje</summary>
             <div class="dropdown-menu">
 
-                <a href="#rutina-empuje-1">Rutina 1</a>
-                <a href="#rutina-empuje-2">Rutina 2</a>
+                <a href="{{ '/rutina-empuje/' | relative_url }}#rutina-empuje-1">Rutina 1</a>
+                <a href="{{ '/rutina-empuje/' | relative_url }}#rutina-empuje-2">Rutina 2</a>
             </div>
             
         </details>
@@ -30,16 +30,16 @@
             <summary> Rutina Tiron</summary>
             <div class="dropdown-menu">
 
-                <a href="#rutina-tiron-1">Rutina 1</a>
-                <a href="#rutina-tiron-2">Rutina 2</a>
+                <a href="{{ '/rutina-tiron/' | relative_url }}#rutina-tiron-1">Rutina 1</a>
+                <a href="{{ '/rutina-tiron/' | relative_url }}#rutina-tiron-2">Rutina 2</a>
             </div>
         </details>
 
         <details class="dropdown">
             <summary> Rutina Pierna</summary>
             <div class="dropdown-menu">
-                <a href="#rutina-zumba-1">Rutina 1</a>
-                <a href="#rutina-zumba-2">Rutina 2</a>
+                <a href="{{ '/rutina-pierna/' | relative_url }}#rutina-pierna-1">Rutina 1</a>
+                <a href="{{ '/rutina-pierna/' | relative_url }}#rutina-pierna-2">Rutina 2</a>
             </div>
         </details>
         
@@ -49,8 +49,8 @@
     <main>{{ content }}</main>
 
     <footer class="site-footer">
-      <span>© {{ 'now' | date: '%Y' }} {{ site.title }}</span>
-    
+      <span>© {{ 'now' | date: '%Y' }} rokko</span>
+  
     </footer>
   </body>
 </html>
